@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Main Brand Color -->
+        <item name="colorPrimary">@color/primaryColor</item>
+
+        <!-- Accent Color -->
+        <item name="colorSecondary">@color/secondaryColor</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/backgroundColor</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/primaryColor</item>
+
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+</resources>
